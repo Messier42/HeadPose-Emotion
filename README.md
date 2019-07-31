@@ -14,6 +14,7 @@ You can use the API totally for free for non-commercial use.
 The default output format of the video is `.mp4@14.85fps`, but you can change it by editing the source code in [baidu_face.py](https://github.com/Messier42/head-pose/blob/master/baidu_face.py). [example.mp4](https://github.com/Messier42/head-pose/blob/master/example.mp4) is an example of the output video.
 
 [utils.py](https://github.com/Messier42/head-pose/blob/master/utils.py) comes from [https://github.com/natanielruiz/deep-head-pose/blob/master/code/utils.py](https://github.com/natanielruiz/deep-head-pose/blob/master/code/utils.py)
+```
 @InProceedings{Ruiz_2018_CVPR_Workshops,
 author = {Ruiz, Nataniel and Chong, Eunji and Rehg, James M.},
 title = {Fine-Grained Head Pose Estimation Without Keypoints},
@@ -21,5 +22,6 @@ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVP
 month = {June},
 year = {2018}
 }
+```
 
 ### Hope you enjoy it :)
