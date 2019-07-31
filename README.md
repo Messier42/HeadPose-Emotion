@@ -1,4 +1,4 @@
-# Head pose estimation
+# Head Pose Estimation
 This is an example of using Baidu API to estimate the head pose in the video instead of the still image. 
 
 ### How to use?
