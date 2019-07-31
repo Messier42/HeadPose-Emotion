@@ -1,5 +1,5 @@
 # Head Pose Estimation
-This is an example of using Baidu API to estimate the head pose in the video instead of the still image. 
+This is an example of using Baidu API to estimate the head pose in the video. 
 
 ### How to use?
 First of all, go to [https://ai.baidu.com/tech/face/detect](https://ai.baidu.com/tech/face/detect), where you can use their API for face detection. Click `立即使用` button and after signing up and signing in, you'll get an `API Key` and a `Secret Key`. Follow the instruction in the documentation and replace both `API Key` and `Secret Key` in [baidu_api.py](https://github.com/Messier42/head-pose/blob/master/baidu_api.py).
