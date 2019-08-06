@@ -18,7 +18,7 @@ def get_access_token():
 def face_detection(base64_data, max_face_num):
     request_url = "https://aip.baidubce.com/rest/2.0/face/v3/detect"
 
-    params = {'image': base64_data, 'image_type': 'BASE64', 'max_face_num':max_face_num}
+    params = {'image': base64_data, 'image_type': 'BASE64','face_field':'emotion', 'max_face_num':max_face_num}
     params = urllib.parse.urlencode(params).encode("utf-8")
 
     access_token = get_access_token()
@@ -30,3 +30,19 @@ def face_detection(base64_data, max_face_num):
     content = response.read()
     if content:
         return content
+
+#人体关键点识别
+def body_key_point(base64_data):
+        request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/body_analysis"
+
+        params = {"image":base64_data}
+        params = urllib.parse.urlencode(params).encode("utf-8")
+
+        access_token = get_access_token()
+        request_url = request_url + "?access_token=" + access_token
+        request = urllib.request.Request(url=request_url, data=params)
+        request.add_header('Content-Type', 'application/x-www-form-urlencoded')
+        response = urllib.request.urlopen(request)
+        content = response.read()
+        if content:
+            return content
