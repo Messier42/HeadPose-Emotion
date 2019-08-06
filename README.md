@@ -3,7 +3,7 @@
 This is an example of using Baidu API to estimate the head pose and the emotion of people in the video.
  
 <div align="center">
-<br><img src="demo.gif" /><br>
+<img src="demo.gif" /><br>
 </div>
 
 ### How to use?
