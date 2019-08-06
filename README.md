@@ -21,4 +21,4 @@ You can use the API totally for free for non-commercial use.
 
 Part of [utils.py](https://github.com/Messier42/HeadPose-Emotion/blob/master/utils.py) comes from [Hopenet](https://github.com/natanielruiz/deep-head-pose/blob/master/code/utils.py)
 
-## Hope you enjoy it :)
+**Hope you enjoy it :)**
