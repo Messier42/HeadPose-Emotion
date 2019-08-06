@@ -23,7 +23,7 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
 
-    file = open('result/face/%s.txt' %args.output_string, 'w')
+    file = open('result/%s.txt' %args.output_string, 'w')
 
     video = cv2.VideoCapture(args.video) 
 
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))   
     height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT)) 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    out = cv2.VideoWriter('result/face/%s.mp4' %args.output_string, fourcc, args.fps, (width, height))
+    out = cv2.VideoWriter('result/%s.mp4' %args.output_string, fourcc, args.fps, (width, height))
     
     count = 1   
     try:        
