@@ -1,6 +1,6 @@
 # Head Pose & Emotion
 
-This is an example of using Baidu API to estimate the head pose and the emotion of people in the video.
+This is an example of using Baidu API to estimate the head pose and analyze the emotion in the video.
  
 <div align="center">
 <img src="demo.gif" /><br>
